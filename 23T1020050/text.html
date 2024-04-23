@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Textbox có nút bên phải</title>
+<style>
+    .container {
+        position: relative;
+        width: 300px; /* Điều chỉnh kích thước của container tại đây */
+    }
+    .textbox {
+        width: 100%;
+        padding-right: 40px; /* Khoảng cách giữa textbox và nút */
+    }
+    .btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        padding: 5px 10px;
+        background-color: #ccc;
+        border: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <input type="text" class="textbox" placeholder="Nhập thông tin">
+    <button class="btn">Nút</button>
+</div>
+
+</body>
+</html>
